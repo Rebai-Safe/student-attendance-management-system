@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="598.0" styleClass="anchor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLformulairecontroller">
+   <children>
+      <AnchorPane layoutX="116.0" layoutY="33.0" opacity="0.98" prefHeight="403.0" prefWidth="371.0" style="-fx-background-color: #48C9B0;">
+         <children>
+            <ImageView fitHeight="148.0" fitWidth="172.0" layoutX="108.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@register.png" />
+               </image>
+            </ImageView>
+            <JFXTextField fx:id="classe" layoutX="108.0" layoutY="189.0" promptText="Classe" styleClass="text-field" stylesheets="@style.css" />
+            <JFXTextField fx:id="seance" layoutX="108.0" layoutY="240.0" promptText="Seance" styleClass="text-field" stylesheets="@style.css" />
+            <JFXTextField fx:id="date" layoutX="108.0" layoutY="284.0" promptText="Date(AAAA-MM-JJ)" styleClass="text-field" stylesheets="@style.css" />
+            <Button alignment="CENTER" layoutX="113.0" layoutY="336.0" mnemonicParsing="false" onAction="#send" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: #D35400;" text="connexion" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="446.0" prefWidth="600.0" styleClass="anchor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLfenetrechoixController">
+   <children>
+      <AnchorPane layoutX="126.0" layoutY="35.0" prefHeight="377.0" prefWidth="348.0" styleClass="small-anchor" stylesheets="@style.css">
+         <children>
+            
+            <JFXButton buttonType="RAISED" layoutX="59.0" layoutY="269.0" onAction="#chargerannulation" prefHeight="75.0" prefWidth="237.0" style="-fx-background-color: #D35400;" text="Annuler une absence " underline="true" />
+            <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="256.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Cancel.png" />
+               </image>
+            </ImageView>
+            <JFXButton buttonType="RAISED" layoutX="56.0" layoutY="151.0" onAction="#chargerconsultation" prefHeight="75.0" prefWidth="237.0" style="-fx-background-color: #D35400;" text="Consulter presence" underline="true" />
+            <JFXButton buttonType="RAISED" layoutX="56.0" layoutY="27.0" onAction="#chargerremplir" prefHeight="75.0" prefWidth="237.0" style="-fx-background-color: #D35400;" text="Enregistrer presence" underline="true" />
+            <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="256.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pencil.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="250.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@survey.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="539.0" styleClass="anchor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLDocumentController">
+   
+    <children>
+      <AnchorPane layoutX="86.0" layoutY="66.0" opacity="0.98" prefHeight="403.0" prefWidth="371.0" styleClass="small-anchor" stylesheets="@style.css">
+         <children>
+            <Button alignment="CENTER" layoutX="117.0" layoutY="328.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: #D35400;" text="connexion" />
+            <JFXTextField fx:id="user" focusColor="#ab4113" layoutX="100.0" layoutY="182.0" prefHeight="40.0" prefWidth="172.0" promptText="utilisateur" stylesheets="@style.css" unFocusColor="#046f61" />
+            <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="248.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@u.png" />
+               </image>
+            </ImageView>
+            <JFXPasswordField fx:id="password" focusColor="#ab4113" layoutX="100.0" layoutY="251.0" prefHeight="40.0" prefWidth="172.0" promptText="mot de passe" unFocusColor="#046f61" />
+            <ImageView fitHeight="148.0" fitWidth="172.0" layoutX="112.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="248.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@l.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <InnerShadow color="#da790b" />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

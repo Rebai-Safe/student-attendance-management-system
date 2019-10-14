@@ -1,0 +1,18 @@
+.anchor{
+    -fx-background-image: url("/View/bg.jpeg");
+    -fx-background-repeat:no-repeat;
+    -fx-background-size: cover, auto;
+    
+}
+
+.text-field {
+    -fx-prompt-text-fill: black;
+    
+}
+
+.small-anchor {
+    
+
+    -fx-alignment:center;
+    -fx-background-color: #48C9B0;
+}

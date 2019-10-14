@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLtableviewController">
+    <children>
+      <TableView fx:id="tableview" prefHeight="343.0" prefWidth="600.0" AnchorPane.bottomAnchor="61.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="nomelevecol" prefWidth="133.0" text="Eléve" />
+            <TableColumn fx:id="prenomelevecol" prefWidth="133.0" text="Prenom" />
+       
+            <TableColumn fx:id="classecol" prefWidth="113.0" text="Classe" visible="false" />
+            <TableColumn fx:id="libellecol" prefWidth="111.0" text="Séance" />
+            <TableColumn fx:id="datecol" prefWidth="122.0" text="Date" />
+            <TableColumn fx:id="etatcol" prefWidth="120.0" text="present" />
+        </columns>
+    
+      </TableView>
+      <AnchorPane layoutX="-2.0" layoutY="342.0" prefHeight="62.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="savep" layoutX="441.0" layoutY="12.0" mnemonicParsing="false" onAction="#savepresent" prefHeight="39.0" prefWidth="137.0" style="-fx-background-color: #D35400;" text="Valider" />
+            
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

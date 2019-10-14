@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="598.0" styleClass="anchor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLformulaireeabsenceController">
+   <children>
+      <AnchorPane layoutX="127.0" layoutY="24.0" opacity="0.98" prefHeight="403.0" prefWidth="371.0" style="-fx-background-color: #48C9B0;">
+         <children>
+            <Button layoutX="113.0" layoutY="296.0" mnemonicParsing="false" onAction="#versconsulationabsence" prefHeight="25.0" prefWidth="128.0" style="-fx-background-color: #D35400;" text="Chercher l'absence" />
+            <JFXTextField fx:id="eleve" layoutX="98.0" layoutY="189.0" prefHeight="25.0" prefWidth="158.0" promptText="Nom éleve" styleClass="text-field" stylesheets="@style.css" />
+           <JFXTextField fx:id="prenom" layoutX="98.0" layoutY="228.0" prefHeight="25.0" prefWidth="158.0" promptText="Prenom éleve" styleClass="text-field" stylesheets="@style.css" />
+
+            <ImageView fitHeight="148.0" fitWidth="172.0" layoutX="108.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@rech.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
